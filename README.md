@@ -25,9 +25,6 @@ para login no HikariDB, esse erro ainda não foi tratado. O corre apenas uma vez
 programa, mas ele está lá!).
 
 
-
-
-
 ************************
 
 PREPARE SEU AMBIENTE!
@@ -37,13 +34,15 @@ Projeto está sendo desenvolvido na IDEA IntelliJ, sugiro utilizar essa mesma ID
 O Java SE 23.0.2 é a versão mais atualizada do JAVA atualmente, atualize seu JAVA!
 
 Atualize também seu MySQL para versão mais atual.
+É NECESSÁRIO QUE ALTERE AS LINHAS 31 e 32 DENTRO DO ARQUIVO DE CLASSE ConnectionDBFactory.java PARA
+INCLUIR SEU LOGIN DE HOST LOCAL DO MySQL.
 
 É necessário executar o Script SQL fornecido neste repositorio para o completo funcionamento
 do sistema juntamente com o MySQL.
 Arquivo do Scrip: backupSQL.sql
+
+
 ************************
-
-
 
 
 Rodamos tudo através do terminal de comando!
