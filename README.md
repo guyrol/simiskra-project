@@ -84,8 +84,7 @@ Sistema irá solicitar nome do cliente, e-mail e senha.
 
 3 - Finaliza aplicação.
 
-
-
+*******************************
 Ao realizar o login o usuario é impactado com o menu do usuario.
 
                 * SIMISKRA *
