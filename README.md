@@ -40,7 +40,7 @@ Atualize também seu MySQL para versão mais atual.
 
 É necessário executar o Script SQL fornecido neste repositorio para o completo funcionamento
 do sistema juntamente com o MySQL.
-
+Arquivo do Scrip: backupSQL.sql
 ************************
 
 
