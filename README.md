@@ -13,7 +13,7 @@ em Islandes (Quanta Originalidade!).
 
 
 
-////////////////////////////////////////////
+*******************************
 
 Esse Projeto trata-se de uma aplicação desenvolvida em JAVA que utiliza SQL via
 JDBC para realizar Queries diretamente no banco de dados no MySQL. 
