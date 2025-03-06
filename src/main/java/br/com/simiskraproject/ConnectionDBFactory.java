@@ -28,12 +28,11 @@ public class ConnectionDBFactory { //
     private HikariDataSource createDataSource() { // UTILIZA O HIKARI PARA TER UMA CONEXÃO MAIS EFICIENTE
         HikariConfig config = new HikariConfig();
         config.setJdbcUrl("jdbc:mysql://localhost:3306/simiskradb");
-        config.setUsername("root");
-        config.setPassword("MySQL@dx54kzp3!");
+        config.setUsername("root"); //INSIRA SEU USUARIO
+        config.setPassword(""); //INSIRA A SUA SENHA
         config.setMaximumPoolSize(10);//MAXIMO POOL DE CONEXÃO SIMULTANEAS
 
         return new HikariDataSource(config);
     }
 }
 
-//"jdbc:mysql://localhost:3306/simiskradb?user=root&password=MySQL@dx54kzp3!"
